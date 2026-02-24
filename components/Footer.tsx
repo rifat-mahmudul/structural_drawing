@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-400 pt-12 pb-8">
+    <footer className="bg-gray-800 text-gray-400 pt-12 pb-16">
       <div className="container mx-auto px-5">
         <div className="grid md:grid-cols-2 gap-10 mb-8">
           <div>
@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2 text-sm">
               <p>📍 Khilkhet-1229, Dhaka, Bangladesh</p>
               <p>
-                💬 WhatsApp:{' '}
+                💬 WhatsApp:{" "}
                 <a
                   href="https://wa.me/8801540754530"
                   className="text-blue-400 hover:underline"
@@ -30,7 +30,7 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                ✉️ Email:{' '}
+                ✉️ Email:{" "}
                 <a
                   href="mailto:civil1632@gmail.com"
                   className="text-blue-400 hover:underline"
@@ -41,11 +41,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
-        <div className="border-t border-gray-700 pt-6 text-center text-sm">
-          <p>© 2024 Structural Drawing Foundation Class | All Rights Reserved</p>
-        </div>
       </div>
     </footer>
-  )
+  );
 }
