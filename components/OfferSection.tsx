@@ -1,10 +1,10 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const urgencyPoints = [
-  'Limited seats only — আসন সীমিত',
-  'Offer can close anytime — যেকোনো সময় বন্ধ হতে পারে',
-  'Join now before it becomes paid again',
-]
+  "Limited seats only — আসন সীমিত",
+  "Offer can close anytime — যেকোনো সময় বন্ধ হতে পারে",
+  "Join now before it becomes paid again",
+];
 
 export default function OfferSection() {
   return (
@@ -14,18 +14,21 @@ export default function OfferSection() {
 
       <div className="container mx-auto px-5 relative z-10 text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
-          🔥 Special Offer for{' '}
-          <span className="text-green-400">Students!</span>
+          🔥 Special Offer for{" "}
+          <span className="text-green-400">Registered Person!</span>
         </h2>
 
         <p className="text-slate-300 text-lg max-w-xl mx-auto mb-8">
-          এই কোর্সের regular fee 399 TK. এখন Limited Time এর জন্য সম্পূর্ণ{' '}
+          এই কোর্সের regular fee 2000 TK. এখন Limited Time এর জন্য সম্পূর্ণ{" "}
           <strong className="text-green-400">100% FREE!</strong>
         </p>
 
         <ul className="flex flex-col items-center gap-3 mb-12">
           {urgencyPoints.map((p) => (
-            <li key={p} className="flex items-center gap-3 text-yellow-300 font-semibold text-base">
+            <li
+              key={p}
+              className="flex items-center gap-3 text-yellow-300 font-semibold text-base"
+            >
               <span>⚠️</span>
               <span>{p}</span>
             </li>
@@ -40,5 +43,5 @@ export default function OfferSection() {
         </Link>
       </div>
     </section>
-  )
+  );
 }
