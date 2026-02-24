@@ -22,7 +22,7 @@ export default function RegistrationForm() {
 
     try {
       const templateParams = {
-        to_email: "rifatbdcallingit23@gmail.com",
+        to_email: "civil1632@gmail.com",
         from_name: form.name,
         from_email: form.email || "not-provided@email.com",
         phone: form.phone,
