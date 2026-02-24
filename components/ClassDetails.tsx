@@ -25,7 +25,7 @@ export default function ClassDetails() {
               </p>
               {d.isFee ? (
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="line-through text-gray-400 text-sm">399 টাকা</span>
+                  <span className="line-through text-gray-400 text-sm">2000 টাকা</span>
                   <span className="bg-[#16a34a] text-white text-sm px-3 py-0.5 rounded-full font-bold">
                     FREE
                   </span>

@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: 'Is it really free? সত্যিই কি free?',
-    a: 'হ্যাঁ! Regular price 399 TK, কিন্তু এখন Limited Time-এর জন্য সম্পূর্ণ free। কোনো hidden charge নেই।',
+    a: 'হ্যাঁ! Regular price 2000 TK, কিন্তু এখন Limited Time-এর জন্য সম্পূর্ণ free। কোনো hidden charge নেই।',
   },
   {
     q: 'Will I get practical understanding?',
