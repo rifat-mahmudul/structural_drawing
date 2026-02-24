@@ -36,8 +36,8 @@ export default function HeroSection() {
               {[
                 'Beginner-friendly — সম্পূর্ণ সহজ ভাষায়',
                 'Diploma / BSc Students দের জন্য পারফেক্ট',
-                'শুধু Intro Task + Foundation Concept',
-                'Real field mindset তৈরি করবে',
+                'Intro Task + Foundation Concept',
+                'Real project mindset guideline',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-green-100 text-base">
                   <span className="mt-0.5 flex-shrink-0">✅</span>
