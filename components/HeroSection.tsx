@@ -25,7 +25,7 @@ export default function HeroSection() {
 
             {/* Price box */}
             <div className="bg-white/10 border border-white/20 rounded-2xl p-4 mb-7 flex flex-wrap items-center gap-3">
-              <span className="text-red-300 line-through text-base font-medium">কোর্স ফি: 399 টাকা</span>
+              <span className="text-red-300 line-through text-base font-medium">কোর্স ফি: 2000 টাকা</span>
               <span className="text-white">→</span>
               <span className="text-green-400 font-extrabold text-2xl">100% FREE!</span>
               <span className="text-yellow-200 text-sm">⏰ Limited Time Only</span>
@@ -63,7 +63,7 @@ export default function HeroSection() {
           {/* Right: Info Cards */}
           <div className="hidden md:flex flex-col gap-4">
             {[
-              { label: 'Class Name', value: 'Foundation for Structural Drawing & Detailing', highlight: false },
+              { label: 'Class Name', value: 'Professional Structural drawing intro Course (Foundation for structural Drawing & Detailing)', highlight: false },
               { label: '⏱️ Duration', value: '1–2 Hours', highlight: false },
               { label: '💻 Mode', value: 'Online Live Class', highlight: false },
               { label: '💰 Fee', value: null, isFee: true, highlight: true },
@@ -81,7 +81,7 @@ export default function HeroSection() {
                 </p>
                 {card.isFee ? (
                   <div className="flex items-center gap-3 flex-wrap">
-                    <span className="text-red-300 line-through text-sm">399 TK</span>
+                    <span className="text-red-300 line-through text-sm">2000 TK</span>
                     <span className="text-green-400 font-extrabold text-2xl">FREE 🎉</span>
                   </div>
                 ) : (
