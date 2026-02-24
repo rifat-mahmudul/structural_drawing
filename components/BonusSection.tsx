@@ -42,9 +42,7 @@ export default function BonusSection() {
           <p className="font-bold text-[#15803d] text-lg mb-1">
             🛡️ No risk. Just join, learn, upgrade.
           </p>
-          <p className="text-green-700 text-sm">
-            কোনো ক্ষতি নেই — শুধু শেখো এবং এগিয়ে যাও।
-          </p>
+          
         </div>
       </div>
     </section>
