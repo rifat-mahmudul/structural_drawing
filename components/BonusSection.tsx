@@ -1,20 +1,20 @@
 const bonuses = [
   {
-    icon: '📝',
-    title: 'Free Notes & Checklist',
-    desc: 'Class-এর সাথে professional notes পাবে revision-এর জন্য',
+    icon: "📝",
+    title: "Free Notes & Checklist",
+    desc: "Class-এর সাথে professional notes পাবে revision-এর জন্য",
   },
   {
-    icon: '📐',
-    title: 'Sample Drawings',
-    desc: 'Real project-এর sample drawings দেখার সুযোগ পাবে',
+    icon: "📐",
+    title: "Sample Drawings",
+    desc: "Real project-এর sample drawings দেখার সুযোগ পাবে",
   },
   {
-    icon: '🎁',
-    title: 'Next Course Discount',
-    desc: 'পরবর্তী paid course-এ special discount পাবে',
+    icon: "🎁",
+    title: "Special Bonus for only Registered Person",
+    desc: "বোনাস শুধুমাত্র তাদের জন্য যারা রেজিস্ট্রেশন করবেন",
   },
-]
+];
 
 export default function BonusSection() {
   return (
@@ -31,7 +31,9 @@ export default function BonusSection() {
               className="bg-white border border-gray-200 rounded-3xl p-8 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200"
             >
               <div className="text-5xl mb-4">{b.icon}</div>
-              <h4 className="font-bold text-[#1e3a5f] text-base mb-2">{b.title}</h4>
+              <h4 className="font-bold text-[#1e3a5f] text-base mb-2">
+                {b.title}
+              </h4>
               <p className="text-gray-600 text-sm leading-relaxed">{b.desc}</p>
             </div>
           ))}
@@ -42,9 +44,8 @@ export default function BonusSection() {
           <p className="font-bold text-[#15803d] text-lg mb-1">
             🛡️ No risk. Just join, learn, upgrade.
           </p>
-          
         </div>
       </div>
     </section>
-  )
+  );
 }
